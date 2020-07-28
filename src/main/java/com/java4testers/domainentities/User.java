@@ -4,6 +4,10 @@ public class User {
     private String username;
     private String password;
 
+    /** Java comment
+     * GET SET are ACCESSOR methods that allows other class can access to these PRIVATE variables.
+     * It reduce ability to have value amended by other classes while calling
+     */
     public User() {
         this("username", "password");
     }
