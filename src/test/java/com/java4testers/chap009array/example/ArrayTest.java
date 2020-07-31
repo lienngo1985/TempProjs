@@ -67,7 +67,7 @@ public class ArrayTest {
     public void print2DIntArray(int [][]multi) {
         for (int[] outer : multi) {
             if (outer==null) {
-                System.out.println("null");
+                System.out.println(" ");
             } else {
                 for (int inner : outer) {
                     System.out.println(inner + ",");
